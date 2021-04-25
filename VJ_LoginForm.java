@@ -78,7 +78,7 @@ public class VJ_LoginForm extends JFrame implements ActionListener {
         //instantiate the playerList
         playerList = new VJ_PlayerList();
         try {
-            readPlayerFromFile("players.txt");
+            readPlayerFromFile("C:\\Users\\Lenovo\\Downloads\\snakegame_v1\\PROG5001A2\\player.txt");
         } catch (FileNotFoundException e) {
             JOptionPane.showMessageDialog(this, "File Not Found");
         }
