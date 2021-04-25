@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.EventQueue;
 
-public class SnakeGame extends JFrame {
+public class VJ_SnakeGame extends JFrame {
 
-    public SnakeGame(String gameTille) {        
+    public VJ_SnakeGame(String gameTille) {        
         setTitle(gameTille);
         setResizable(false);
         setLocationRelativeTo(null);

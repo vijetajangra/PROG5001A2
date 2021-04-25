@@ -19,15 +19,15 @@ import java.io.FileNotFoundException;
  * @author Vinh Bui
  */
 
-public class LoginForm extends JFrame implements ActionListener {
+public class VJ_LoginForm extends JFrame implements ActionListener {
     private JLabel labelUsername;
     private JLabel labelPassword;   
     private JTextField textUsername;
     private JPasswordField fieldPassword;
     private JButton buttonLogin;
-    private PlayerList playerList;
+    private VJ_PlayerList playerList;
  
-    public LoginForm() {
+    public VJ_LoginForm() {
         super("Login Form");
         labelUsername = new JLabel("Enter username: ");
         labelPassword = new JLabel("Enter password: ");   
@@ -76,7 +76,7 @@ public class LoginForm extends JFrame implements ActionListener {
         buttonLogin.addActionListener(this);
         
         //instantiate the playerList
-        playerList = new PlayerList();
+        playerList = new VJ_PlayerList();
         try {
             readPlayerFromFile("players.txt");
         } catch (FileNotFoundException e) {
@@ -116,7 +116,7 @@ public class LoginForm extends JFrame implements ActionListener {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new LoginForm().setVisible(true);
+                new VJ_LoginForm().setVisible(true);
             }
         });
     }

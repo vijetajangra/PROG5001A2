@@ -4,11 +4,11 @@
  * @author 
  * @version
  */
-public class Prey {
+public class VJ_Prey {
     /**
      * Constructor for objects of class Prey
      */
-    public Prey()
+    public VJ_Prey()
     {
     }    
 }
