@@ -18,5 +18,22 @@ public class VJ_GameBoard extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
     }
-    
+    /**
+    *Method displayBoard
+    *will show the board to the user
+     */
+    pubic void displayBoard(){
+    }
+    /**
+    *Method resizeBoard
+    *will give permission to the user to resize the board
+     */
+    public void resizeBoard(){
+    }
+    /**
+    *Method keyPress
+    *will help the user to move the snake in different direction
+     */
+    public void keyPress(){
+    }
 }
