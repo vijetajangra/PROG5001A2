@@ -22,7 +22,7 @@ public class VJ_GameBoard extends JPanel {
     *Method displayBoard
     *will show the board to the user
      */
-    pubic void displayBoard(){
+    public void displayBoard(){
     }
     /**
     *Method resizeBoard
