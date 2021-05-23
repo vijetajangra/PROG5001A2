@@ -11,7 +11,7 @@ public class VJ_Prey {
     *these are the default position when the prey image will be loaded first time
     *    
     */
-   private ImageIcon titleimage;
+   //private ImageIcon titleimage;
     int defaultXPosition=100;
     int defaultYPosition=100;
     /**
